@@ -55,7 +55,7 @@
 
 <input type="date" id="end" name="movie-end"
        value="2011-02-13"
-       min="011-02-13" max="011-02-03">
+       min="2011-02-13" max="2011-02-03">
 
 
 
@@ -72,7 +72,7 @@
 
                      <input type="reset" value="Reset">
 
-                     <input type="search" id="quick search" name="a"
+                     <input type="search" id="quicksearch" name="a"
                      aria-label="Search the web">
               
               <button>Search</button>
@@ -91,7 +91,7 @@
                minlength="5" required>
     </div>     
 
-    <label for="story">Tell us what is your career:</label>
+    <label>Tell us what is your career:</label>
 
     <textarea id="career" name="career"
               rows="3" cols="13">
@@ -99,8 +99,8 @@
 
 
     <label for="tea">choice tea:</label>
-<input list="tea" id="tea" name="choice tea" />
-    <datalist id="tea">
+<input list="tea" id="choicetea" name="choicetea" />
+    <datalist id="teatea">
       <option value="blacktea">
       <option value="whitetea">
     </datalist>
@@ -124,7 +124,6 @@
   <table>
     <caption>watch a word</caption>
     <colgroup>
-      <col>
       <col span="2" class="cool">
       <col span="2" class="man">
     </colgroup>
@@ -202,7 +201,7 @@
       src="http://tva2.sinaimg.cn/large/006BFMdqgy1gmldssh65wj31es0ockdd.jpg">
     </iframe>
 
-    <audio controls src="APigeon - Moon 5.mp3">
+    <audio controls src="APigeon-Moon5.mp3">
       <p>listen</p>
     </audio>
 
@@ -216,12 +215,12 @@
       If this video cannot play,report.
     </canvas>
 
-    <svg viewBox="0 0 400 150" xmlns="alohasummer.svg">
+    <svg viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg">
       <circle cx="20" cy="30" r="36" />
       <circle cx="100" cy="60" r="5" />
     </svg>
 
-    <form action="" method="get" class="form-example">
+    <form action="go" method="get" class="form-example">
       <div class="form-example">
         <label for="name">Enter your date of birth: </label>
         <input type="text" name="name" id="name" required>
@@ -240,14 +239,14 @@
 
     <div class="sport">
       <label for="basketball">Do you want to play?</label>
-      <input type="checkbox" name="basketball" id="basketball">
+      <input type="checkbox" name="basketball" id="pay">
     </div>
 
     <fieldset>
       <legend>Choose your favorite tea</legend>
 
-      <label for="greentea">greentea</label><br />
-      <label for="olong">olong</label><br />
+      <label>greentea</label><br />
+      <label>olong</label><br />
 
     </fieldset>
 
@@ -259,7 +258,7 @@
       <input type="checkbox" id="show" name="show" checked>
       <label for="show">jazz</label>
       <input type="checkbox" id="show" name="show" checked>
-      <label for="show">dance</label>
+      <label for="pshow">dance</label>
 
     </div>
 
