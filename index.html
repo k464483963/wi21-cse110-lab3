@@ -3,7 +3,6 @@
 
 <head>
   <title>HanJie's user page</title>
-  <meta name="color-scheme" content="dark">
   <link href="main.css" rel="stylesheet">
 </head>
 
@@ -38,6 +37,112 @@
 
   </main>
 
+  <p>Choose your color:</p>
+
+<div>
+    <input type="color" id="picture" name="picture"
+           value="#e66465">
+    <label for="picture">picture</label>
+</div>
+
+<div>
+    <input type="color" id="basketball" name="basketball"
+            value="#f6b73c">
+    <label for="basketball">basketball</label>
+</div>
+
+<label for="end">end date:</label>
+
+<input type="date" id="end" name="movie-end"
+       value="2011-02-13"
+       min="011-02-13" max="011-02-03">
+
+
+
+
+       <label for="email">Enter your school email:</label>
+
+       <input type="email" id="email"
+              pattern=".+@gmail.com" size="20" required>
+       
+              <label for="number">enter number 88-128:</label>
+
+              <input type="number" id="number" name="number"
+                     min="88" max="128">
+
+                     <input type="reset" value="Reset">
+
+                     <input type="search" id="quick search" name="a"
+                     aria-label="Search the web">
+              
+              <button>Search</button>
+
+              <input type="tel" id="phone" name="phone"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              required>
+       
+       <small>number-format: 000-000-0000</small>
+
+       <input type="submit" value="submit">
+       
+       <div>
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="password"
+               minlength="5" required>
+    </div>     
+
+    <label for="story">Tell us what is your career:</label>
+
+    <textarea id="career" name="career"
+              rows="3" cols="13">
+    </textarea>
+
+
+    <label for="tea">choice tea:</label>
+<input list="tea" id="tea" name="choice tea" />
+    <datalist id="tea">
+      <option value="blacktea">
+      <option value="whitetea">
+    </datalist>
+
+    <table>
+      <caption>look at here</caption>
+
+      <thead>
+          <tr>
+              <th scope="row">song</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>sugar</td>
+              <td>memory</td>
+          </tr>
+      </tbody>
+  </table>
+
+  <table>
+    <caption>watch a word</caption>
+    <colgroup>
+      <col>
+      <col span="2" class="cool">
+      <col span="2" class="man">
+    </colgroup>
+    </table>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <div class="warning">
     <img src="/media/examples/leopard.jpg" alt="An intimidating leopard.">
     <p>be careful to click it</p>
@@ -64,9 +169,13 @@
     <li>dance
   </ol>
 
+  <p>The sky is blue<br>
+    The water is blue<br>
+    The birds are sing<br>
+  </p>
+
   <figure>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Leopard_africa.jpg" alt=""
-      width="250" height="300">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Leopard_africa.jpg" alt="" width="250" height="300">
     <figcaption>An leopard is in the rest</figcaption>
   </figure>
 
@@ -83,6 +192,77 @@
 
   <p>This is the link to secret place<a href="http://www.youtube.com">website</a></p>
   <footer>
+
+    <picture>
+
+      <img src="http://tva2.sinaimg.cn/large/006BFMdqgy1gmldssh65wj31es0ockdd.jpg" alt="" width="250" height="150">
+    </picture>
+
+    <iframe id="inlineFrameExample" title="Inline Frame Example" width="400" height="300"
+      src="http://tva2.sinaimg.cn/large/006BFMdqgy1gmldssh65wj31es0ockdd.jpg">
+    </iframe>
+
+    <audio controls src="APigeon - Moon 5.mp3">
+      <p>listen</p>
+    </audio>
+
+    <p>enjoy watch video</p>
+
+    <video controls width="300">
+      <source src="file_example_MP4_640_3MG.mp4" type="video/mp4">
+    </video>
+
+    <canvas width="300" height="300">
+      If this video cannot play,report.
+    </canvas>
+
+    <svg viewBox="0 0 400 150" xmlns="alohasummer.svg">
+      <circle cx="20" cy="30" r="36" />
+      <circle cx="100" cy="60" r="5" />
+    </svg>
+
+    <form action="" method="get" class="form-example">
+      <div class="form-example">
+        <label for="name">Enter your date of birth: </label>
+        <input type="text" name="name" id="name" required>
+      </div>
+    </form>
+
+    <p>select the drink you want</p>
+
+    <select id="dino-select">
+      <optgroup label="Theropods">
+        <option>coke</option>
+        <option>milk</option>
+        <option>orange</option>
+      </optgroup>
+    </select>
+
+    <div class="sport">
+      <label for="basketball">Do you want to play?</label>
+      <input type="checkbox" name="basketball" id="basketball">
+    </div>
+
+    <fieldset>
+      <legend>Choose your favorite tea</legend>
+
+      <label for="greentea">greentea</label><br />
+      <label for="olong">olong</label><br />
+
+    </fieldset>
+
+    <p>enter button enjoy movie</p>
+    <input class="favorite movie" type="button" value="kong fu Panda">
+
+    <p>Choose your show:</p>
+    <div>
+      <input type="checkbox" id="show" name="show" checked>
+      <label for="show">jazz</label>
+      <input type="checkbox" id="show" name="show" checked>
+      <label for="show">dance</label>
+
+    </div>
+
     <p>2021 Henry</p>
   </footer>
 </body>
