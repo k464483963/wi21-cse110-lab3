@@ -7,6 +7,11 @@
   <link href="main.css" rel="stylesheet">
 
   <style>
+    * {
+      font-size: 101%;
+      color:black;
+    }
+
     body {
       background-color: rgb(23, 187, 199);
     }
@@ -15,15 +20,103 @@
       color: rgb(57, 5, 126);
       margin-left: 40px;
     } 
+
+    #fun{
+      text-align: center;
+      color:coral;
+    }
+
+    .fun2{
+      text-align: center;
+      color:chocolate;
+    }
+
+    a[target]{
+      background-color:yellow;
+    }
+
+    a:visited{
+      color: green;
+    }
+    a:hover{
+      color: hotpink;
+    }
+    a:active{
+      color: lawngreen;
+    }
+    div p{
+      background-color: mediumslateblue;
+    }
+    c > p{
+      background-color:mediumvioletred;
+    }
+    
+    div + p{
+      background-color: peru;
+    }
+
+    d ~ p{
+      background-color: blue;
+    }
+    e,g{
+      background-color: brown;
+    }
+    comment{
+      color:cornflowerblue;
+    }
     </style>
+
 
 
 </head>
 
 <body>
+
   <p style="color: rgb(132, 0, 255)">Hello welcome</p>
 
   <h2 style="color: chartreuse;">This is green color</h2>
+
+  <h3 style="background-color: rgb(60,179,113);">rgb(60,179,113)</h3>
+  
+  <h4 style="background-color: rgb(60,179,113,0.4);">rgba(60,179,113,0.4)</h4>
+
+
+  <comment>Using the comments</comment> <br>
+
+  <a target="atri">Using attribute selector</a>
+
+<p id="fun">using Id selector</p>
+
+<p class="fun2">using class selector</p>
+
+<p><b><a href="http://www.youtube.com" target="web">using Pseudo-classes, click the link</a></b></p>
+
+<e>
+  <g>using  selector lsit</g>
+  </e>
+
+  <g>still have Selector list</g>
+
+<div>
+  <p>using div</p>
+  <p>still using div</p>
+</div>
+
+  <p>using ajcent Adjacent Sibling Selector</p>
+
+  <c>
+    <p>using child selector</p>
+    <section><p>Not show but in child selector div</p></section>
+  </c>
+
+  <g>yeah, still have Selector list</g>
+
+ <d>
+   <p>below using General Sibling Selector</p>
+   </d>
+
+   <p>using General Sibling Selector</p>
+
   <header>
     <p>Tell me who you are</p>
   </header>
