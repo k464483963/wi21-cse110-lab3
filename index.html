@@ -5,15 +5,26 @@
   <title>HanJie's user page</title>
   <meta charset="utf-8">
   <link href="main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Hanalei&family=Yusei+Magic&display=swap" rel="stylesheet">
 
   <style>
+    int{
+      font-family:Hanalei;
+    }
+
     * {
       font-size: 101%;
       color:black;
     }
 
     body {
-      background-color: rgb(23, 187, 199);
+      background-color:white;
+    }
+
+    @media screen and (min-width: 200px) {
+      body {
+        background-color:rgb(23, 187, 199);
+      }
     }
     
     h1 {
@@ -64,6 +75,190 @@
     comment{
       color:cornflowerblue;
     }
+    #p1{
+      background-color: hsla(120, 100%, 50%, 0.3);
+    }
+    #p2{
+      background-color: hsl(120, 100%, 50%);
+    }
+    #p3{
+      background-color:lightsalmon;
+    }
+    #border{
+      text-align: center;
+      font-size: 150%;
+      color:olive;
+    }
+    #units{
+      text-align: center;
+      font-size: 150%;
+      color:olive;
+    }
+    p.dotted{
+      border-style: dotted;
+    }
+    p.colorB{
+      border-style: dotted;
+      border-color: orangered;
+    }
+    p.width{
+      border-style: dotted;
+      border-width: 7px;
+    }
+    #radius{
+      border:4px dotted green;
+      padding:7px;
+      border-radius: 40px 25px;
+    }
+    #boxModel{
+      text-align: center;
+      font-size: 150%;
+      color:olive;
+    }
+    #Text{
+      text-align: center;
+      font-size: 150%;
+      color:olive;
+    }
+    u {
+      font-size:15px;
+      line-height: 3em;
+    }
+    ch {
+      font-size:2ch;
+    }
+    cm {
+      font-size:1cm;
+      line-height: 1cm;
+    }
+    mm {
+      font-size:10mm;
+      line-height: 10mm;
+    }
+    pt {
+      font-size:25pt;
+      line-height: 25pt;
+    }
+    p.box1{
+      margin-top: 30px;
+    }
+    p.box2{
+      margin-bottom: 33px;
+    }
+    p.box3{
+      margin-left: 33px;
+    }
+    p.box4{
+      margin-right: 25px;
+    }
+    p.box5{
+      margin:left 30px;
+    }
+    p.box6{
+      margin:top 40px;
+    }
+    div#auto{
+      background-color: brown;
+      margin: auto;
+    }
+    p.pad{
+      padding-top:  30px;
+    }
+    p.pad2{
+      padding-bottom:  30px;
+    }
+    p.pad3{
+      padding-left:  30px;
+    }
+    p.pad4{
+      padding-right:  30px;
+    }
+
+    p.pad5{
+      padding:top  30px;
+    }
+    p.pad6{
+      padding:bottom 30px;
+    }
+    p.pad7{
+      padding:left 30px;
+    }
+    p.pad8{
+      padding:right 30px;
+    }
+    div.height{
+      height: 30px;
+      border: 1px solid black;  
+    }
+    div.width{
+      width: 30px;
+      border: 1px solid black;  
+    }
+    color{
+      background-color:black;
+      color:blue;
+    }
+    dec{
+      text-decoration: none;
+    }
+    inline{
+      display: inline;
+    }
+    none{
+      display: none;
+    }
+    pp.m{
+      max-width: 150px;
+    }
+    wid{
+      background-color: yellow;
+    }
+    wid.ex1{
+      min-width: 20px;
+    display: inline-block;
+    }
+    value{
+      width: 10px;
+      min-width: initial;
+    }
+    div#dif{
+      position:static;
+  width:100px;
+  height:100px;
+  background:red;
+  left:10px;
+  top:100px;
+    }
+    div#relative{
+      position: relative;;
+  width:100px;
+  height:100px;
+  background:red;
+  left:10px;
+  top:100px;
+    }
+    .container {
+  display: flex;
+  background-color: rgb(32, 243, 190);
+}
+
+
+.container > div {
+  background-color: #f1f1f1;
+  margin: 14px;
+  padding: 19px;
+  font-size: 28px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.grid > div {
+  background-color: #f1f1f1;
+  margin: 14px;
+  padding: 19px;
+  font-size: 28px;
+}
     </style>
 
 
@@ -79,6 +274,75 @@
   <h3 style="background-color: rgb(60,179,113);">rgb(60,179,113)</h3>
   
   <h4 style="background-color: rgb(60,179,113,0.4);">rgba(60,179,113,0.4)</h4>
+
+  <h5 style="background-color:#FF66cc;">Here is color #FF66CC</h5>
+
+<p id="p1">using the hsla styple color</p>
+<p id="p2">using the hsl styple color</p>
+<p id="p3">using the color name</p>
+
+<p id ="Text">This is Text section</p>
+<color>This is text-color</color><br>
+<dec>Using text-decoration</dec><br>
+<int>This is interesting text font</int><br>
+<inline>Using inline display</inline>
+<none>Using none display</none>
+<pp class="m">aaaaaaaaaaasaaaasasasasasassdhfjshdfjdhsjfhdsjfhsjhfdsjhdsjdshfjhsdfdsfjhsdfjhdsjhfasasasdddddddddddddddddddddddddddddddddddasasasasasasasas</pp>
+<wid class="ex1">This is my dfdfdsdsfdsfdsnfjsdjfhjsdhfjdsfsdfsdjfhjshdfsdfsfsdf</wid><br>
+<value>Using value percentage</value>
+<div class="container">
+  <div>a</div>
+  <div>b</div>
+  <div>c</div>  
+</div>
+
+<div class="grid">
+  <div>a</div>
+  <div>b</div>
+  <div>c</div>  
+</div>
+
+<div id="dif">position should be initial</div>
+<div id="relative">position should be relative</div>
+
+
+<p id ="boxModel">This is box Model section</p>
+<p class="box1">Using 30 px margin-top</p>
+<p class="box2">Using 33 px margin-bot</p>
+<p class="box3">Using 33 px margin-left</p>
+<p class="box4">Using 25 px margin-right</p>
+<p class="box5">Using 30 px short margin:left</p>
+<p class="box6">Using 40 px short margin:top</p>
+<div id="auto">This is auto box</div>
+<p class="pad">Using 30 px long padding-top</p>
+<p class="pad2">Using 30 px long padding-bot</p>
+<p class="pad3">Using 30 px long padding-left</p>
+<p class="pad4">Using 30 px long padding-right</p>
+
+<p class="pad5">Using 30 px shorthand padding:top</p>
+<p class="pad6">Using 30 px shorthand padding:bot</p>
+<p class="pad7">Using 30 px shorthand padding:left</p>
+<p class="pad8">Using 30 px shorthand padding:right</p>
+<div class="height">This is height box</div>
+<div class="width">This is width box</div>
+
+
+<p id ="units">This is units section</p>
+<u>Using em units</u><br>
+<ch>Using ch units</ch><br>
+<cm>Using cm units</cm><br>
+<mm>Using mm units</mm><br>
+<pt>Using pt units</pt>
+
+<p id ="border">This is border section</p>
+<p class="dotted">A dotted border.</p>
+<p class="colorB">Using A dotted border.</p>
+<p class="width">Using width dotted border.</p>
+<h>boder-radius: 40px 25px</h>
+<div id="radius">
+  <p>using border-radius 
+</div>
+
 
 
   <comment>Using the comments</comment> <br>
