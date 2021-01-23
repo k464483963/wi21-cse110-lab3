@@ -1,13 +1,18 @@
-Name
-•	What did you do yesterday?
-•	What will you do today?
-•	Where are you blocked?
-•	Comfort Level — How close are we to hitting our sprint goals?
-Name
-•	What did you do yesterday?
-•	What will you do today?
-•	Where are you blocked?
-•	Comfort Level — How close are we to hitting our sprint goals?
+**Name**
+HanJie Zhan
+1.What did you do yesterday?
+  -I did three hw yesterday.
+2.What will you do today?
+  -I will review my midterm tomorrow.
+3.Where are you blocked?
+  -Some of the homework problem.
+4.Comfort Level — How close are we to hitting our sprint goals?
+  -It is not far to get there. work hard.
+**Name**
+-	What did you do yesterday?
+-	What will you do today?
+-	Where are you blocked?
+-	Comfort Level — How close are we to hitting our sprint goals?
 
 
 --
