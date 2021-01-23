@@ -1,12 +1,12 @@
 **Name**
 HanJie Zhan
-- What did you do yesterday?
+What did you do yesterday?
   -I did three hw yesterday.
--What will you do today?
+What will you do today?
   -I will review my midterm tomorrow.
--Where are you blocked?
+Where are you blocked?
   -Some of the homework problem.
--Comfort Level — How close are we to hitting our sprint goals?
+Comfort Level — How close are we to hitting our sprint goals?
   -It is not far to get there. work hard.
 **Name**
 -	What did you do yesterday?
